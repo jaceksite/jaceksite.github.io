@@ -41,6 +41,10 @@ body{
 .agileinfo-logo {
     text-align: center;
 }
+.agileinfo-logo  img {
+	height: 10%;
+    width: 40%;
+}
 .agileinfo-logo h1{
 	margin:0;
 }
