@@ -87,7 +87,7 @@ body{
 	.nav ul { list-style: none; }
 	.nav ul li{float: left; margin-top: 6px; padding: 6px; border-right: 1px solid #ACACAC;}
 	.nav ul li:first-child{ padding-left: 0;}
-	.nav ul li a {color:#00f9ff; font-family: 'Open Sans', sans-serif; font-size: 1.2em;}
+	.nav ul li a {color:#000000; font-family: 'Open Sans', sans-serif; font-size: 1.2em;}
 	.nav ul li a:hover{ text-decoration: underline;}
 .navbar-right {
     float: none !important;
