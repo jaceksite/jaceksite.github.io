@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>American Fashion Direct | Home </title>
+<title>American Fashion Direct | Hurtownia odzieży używanej z USA  </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="American Fashion, American Fashion Direct, American Fashion Warszawa, American Fashion Otwock, American Fashion Karczew, American Fashion Józefów, Hurtownia odzieży Warszawa, Hurtowania Odzieży, Hurtownia Odzieży Otwock, Hurtownia Odzieży Karczew, Odzież używana, Odzież używana USA warszawa, Odzież używana usa Otwock" />
@@ -39,9 +39,36 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		});
 	});
 </script>
-
+<script>
+jQuery("document").ready(function($){
+	
+	var nav = $('.nav-container');
+	
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 136) {
+			nav.addClass("f-nav");
+		} else {
+			nav.removeClass("f-nav");
+		}
+	});
+ 
+});
+</script>
+<link rel="shortcut icon" href="favicon.ico" />
 </head>
 <body>
+<div class="nav-container">
+<div class="nav">
+	<ul>
+									<li><a href="index.html" class="active">Home</a></li>
+									<li><a href="#about" class="scroll">O nas</a></li>
+									<li><a href="#services" class="scroll">Oferta</a></li>
+									<li><a href="#gallery" class="scroll">Galeria</a></li>
+									<li><a href="#contact" class="scroll">Kontakt</a></li>
+	</ul>
+	<div class="clear"></div> 
+</div>
+</div>
 	<!-- banner -->
 	<div class="banner">
 		<!-- banner-info -->
@@ -51,7 +78,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h1><a href="index.html"><img src="images/logo.png" alt="" /></a></h1>
 				</div>
 				<div class="w3layouts-text">
-					<h2>Hurtownia Odzieży Używanej<span>USA</span></h2>
+					<h2>Hurtownia Odzieży Używanej<span>z USA</span></h2>
 					<div class="w3-button">
 						<a href="#" data-toggle="modal" data-target="#myModal">Więcej informacji</a>
 					</div>
@@ -107,12 +134,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</nav>
 					</div>
 					<div class="w3l-header-right">
-						<div class="search">
+					<!--	<div class="search">
 							<form action="#" method="post">
 								<input type="search" name="Search" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}" required="">
 								<input type="submit" value=" ">
 							</form>
-						</div>
+						</div> -->
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -521,18 +548,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="col-sm-4 address-grids">
 					<h4>Telefon :</h4>
-					<p>+48 ...</p>
-					<p>+48 ...</p>
+					<p>+48 503-984-626</p>
+					<p>+48 500-216-477</p>
 				</div>
 				<div class="col-sm-4 address-grids">
 					<h4>Email :</h4>
-					<p><a href="mailto:githubsitejacek@gmail.com">githubsitejacek@gmail.com</a></p>
+					<p><a href="mailto:americanfashiondirect@gmail.com">americanfashiondirect@gmail.com</a></p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 			<div class="contact-form">
-				<h4>Contact Form</h4>
-				<form method="post" action="mailto:githubsitejacek@gmail.com?subject=Forma Kontaktowa" enctype="text/plain">
+				<h4>Forma Kontaktowa</h4>
+				<form method="post" action="mailto:americanfashiondirect@gmail.com?subject=Forma Kontaktowa" enctype="text/plain">
 					<div class="fields-grid">
 						<div class="styled-input agile-styled-input-top">
 							<input type="text" name="Imie" required="">
@@ -571,7 +598,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	<!-- //contact -->
-	<!-- newsletter -->
+	<!-- newsletter 
 	<div class="newsletter">
 		<div class="container">
 			<div class="col-sm-6 newsletter-left">
