@@ -75,16 +75,6 @@ body{
     border: none;
     margin: 0;
 }
- 
-.nav-container{ background: url(../images/nav-bg.jpg) repeat-x 0 0;}
-	.f-nav{ z-index: 9999; position: fixed; left: 0; top: 0; width: 100%;} /* this make our menu fixed top */
-	
-.nav { height: 48px;}
-	.nav ul { list-style: none; }
-	.nav ul li{float: left; margin-top: 6px; padding: 6px; border-right: 1px solid #ACACAC;}
-	.nav ul li:first-child{ padding-left: 0;}
-	.nav ul li a {color:#3e12ff; font-family: 'Open Sans', sans-serif; font-size: 1.2em;}
-	.nav ul li a:hover{ text-decoration: underline;}
 .navbar-right {
     float: none !important;
     margin-right: -15px;
@@ -201,7 +191,7 @@ body{
 /*-- about --*/
 .about-bottom,.features,.gallery,.team,.testimonial,.contact{
     padding: 4em 0;
-    background: #ce2525;/*--#23a7f1;--*/
+    background: #23a7f1;
 }
 .about-bottom-grids {
   margin-top: 4em;
@@ -334,7 +324,7 @@ body{
 /*-- //new --*/
 /*-- gallery --*/
 .gallery{
-	background:#ce2525; /*--#23a7f1;--*/
+	background:#23a7f1;
 }
 .w3-agileits-gallery {
     margin: 4em 0 0 0;
