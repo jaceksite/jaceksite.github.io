@@ -197,8 +197,8 @@ input.z0-inputs {
     text-align: center;
 }
 .agileinfo-logo  img {
-	height: 10%;
-    width: 40%;
+	height:	15%;
+    width: 60%;
 }
 .agileinfo-logo h1{
 	margin:0;
@@ -240,9 +240,9 @@ input.z0-inputs {
 	
 .nav { height: 48px;}
 	.nav ul { list-style: none; }
-	.nav ul li{float: left; margin-top: 6px; padding: 6px; border-right: 1px solid #ACACAC;}
+	.nav ul li{float: left; margin-top: 6px; padding: 6px; border-right: 1px solid #FFFFFF; weight: 5%;}
 	.nav ul li:first-child{ padding-left: 0;}
-	.nav ul li a {color:#000000; font-family: 'Open Sans', sans-serif; font-size: 1.2em;}
+	.nav ul li a {color:#ffffff; font-family: 'Open Sans', sans-serif; font-size: 1.2em; text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;}
 	.nav ul li a:hover{ text-decoration: underline;}
 .navbar-right {
     float: none !important;
