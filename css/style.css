@@ -512,6 +512,7 @@ input.z0-inputs {
 }
 .gallery-bg a img{
 	width:100%;
+	height: auto;
 	border: solid 2px #FFF;
 }
 .gallery-small{
@@ -528,6 +529,7 @@ input.z0-inputs {
 }
 .gallery-small a img{
 	width:100%;
+	height: auto;
 	border: solid 2px #FFF;
 }
 .align-center {
