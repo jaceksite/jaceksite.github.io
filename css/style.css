@@ -266,6 +266,7 @@ input.z0-inputs {
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav li a.active {
     color: #ffffff;
+	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
 }
 .navbar-default .navbar-nav > li > a:before {
     content: '';
@@ -276,6 +277,8 @@ input.z0-inputs {
     width: 0;
     left: 0;
 	transition:.5s all;
+	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+
 }
 .navbar-default .navbar-nav li  a:hover:before,.navbar-default .navbar-nav li a.active:before{
 	width: 100%;
@@ -293,6 +296,7 @@ input.z0-inputs {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     line-height: 1.5em;
+	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
 }
 .w3layouts-text h2 span{
 	display:block;
