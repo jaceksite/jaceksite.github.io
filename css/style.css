@@ -983,7 +983,7 @@ h3.tittle3 {
 }
 .address p {
     margin: 0 0 .3em 0;
-    color: #999999;
+    color: #000000;
     font-size: .9em;
     line-height: 1.8em;
 }
@@ -991,6 +991,7 @@ h3.tittle3 {
 	display:block;
 }
 .address a {
+	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
     color: #999999;
     font-size: .9em;
     letter-spacing: 1px;
