@@ -328,7 +328,7 @@ input.z0-inputs {
 	border: solid 2px #FFFFFF;
 }
 .w3layouts-text p{
-    color: #d0d0d0;
+    color: #000000;
     font-size: .875em;
     margin: 2em 0 0 0;
 }
@@ -991,8 +991,7 @@ h3.tittle3 {
 	display:block;
 }
 .address a {
-	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
-    color: #999999;
+    color: #000000;
     font-size: .9em;
     letter-spacing: 1px;
 	text-decoration:none;
