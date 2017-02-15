@@ -81,9 +81,9 @@ jQuery("document").ready(function($){
 				</div>
 				<div class="w3layouts-text">
 					<h2>Hurtownia Odzieży Używanej<span>z USA</span></h2>
-					<div class="w3-button">
+				<!--	<div class="w3-button">
 						<a href="#" data-toggle="modal" data-target="#myModal">Więcej informacji</a>
-					</div>
+					</div> -->
 					<p></p>
 				</div>
 			</div>
@@ -196,7 +196,7 @@ jQuery("document").ready(function($){
 				Zapraszamy do naszej hurtowni, gdzie mogą Państwo zapoznać się z oferowanym</br>
 				asortymentem. Sprzedajemy w oryginalnych opakowaniach jako bele. Jedno takie</br>
 				opakowanie wazy 45 kg. Każda bela jest skompresowana w bardzo mocnym,</br>
-				winylowym worku, zaciśniętym opaskami dla zmniejszenia zajmowanej powierzani</br>
+				winylowym worku, zaciśniętym opaskami dla zmniejszenia zajmowanej powierzchni</br>
 				magazynowania. Istnieje możliwość zakupu w, mniejszych ilościach,</br>
 				przepakowanych w naszej hurtowni.</br>
 				Zapewniamy konkurencyjne ceny!</p>
@@ -359,12 +359,12 @@ jQuery("document").ready(function($){
 						</br>
 						Pn - Pt od 10 do 18</br>
 						Sob od 10 do 16</br>
-						Nowa dostawa w kazdy poniedziałek.
+						Nowa dostawa w każdy poniedziałek.
 						
 					</p>	
 				</div>
 				<div class="col-sm-4 address-grids">
-					<h4>Hurtownia :</h4>
+					<h4>Hurtownia i sklep przy hurtowni:</h4>
 					<p>Ul. Szczygla 3</p>
 					<p>05-420 Józefów</p>
 					<p>Hurtownia otwarta w dogodnym</p>
@@ -375,7 +375,7 @@ jQuery("document").ready(function($){
 					<h4>Telefony :</h4>
 					<p>503-984-626 * 503-903-392 * 502-177-388</p>
 					<p>Email: <a href="mailto:americanfashiondirect@gmail.com">americanfashiondirect@gmail.com</a></p>
-					<p><a href="www.americanfashiondirect.pl">www.americanfashiondirect.pl</a></p>
+					<p><a href="www.americanfashiondirect.pl">index.html</a></p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -384,19 +384,19 @@ jQuery("document").ready(function($){
 				<form method="post" action="mailto:americanfashiondirect@gmail.com?subject=Forma Kontaktowa" enctype="text/plain">
 					<div class="fields-grid">
 						<div class="styled-input agile-styled-input-top">
-							<input type="text" name="Imie" required="">
+							<input type="text" name="Imie" required="" oninvalid="setCustomValidity('Musisz uzupełnić wymagane pola.')">
 							<label>Imię</label>
 							<span></span>
 						</div>
 						<div class="styled-input agile-styled-input-top">
-							<input type="text" name="Numer tel" required=""> 
+							<input type="text" name="Numer tel" required="" oninvalid="setCustomValidity('Musisz uzupełnić wymagane pola.')"> 
 							<label>Telefon</label>
 							<span></span>
 						</div>
 						<div class="clearfix"> </div>
 					</div> 
 					<div class="styled-input textarea-grid">
-						<textarea name="Message" required=""></textarea>
+						<textarea name="Message" required="" oninvalid="setCustomValidity('Musisz uzupełnić wymagane pola.')"></textarea>
 						<label>Wiadomość</label>
 						<span></span>
 					</div>	 
